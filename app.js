@@ -1,3 +1,11 @@
+const fs = require('fs');
+
 const userName = 'Pope';
 
-console.log(userName);
+fs.writeFile('user-data.txt', 'Name: ' + userName, (err) => {
+    if (err) {
+        console.error(err);
+        return;
+    }
+    console.log('Successfully wrote to user-data.txt');
+})
