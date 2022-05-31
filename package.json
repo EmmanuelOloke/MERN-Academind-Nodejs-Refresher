@@ -1,25 +1,26 @@
 {
-  "name": "node-refresher",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EmmanuelOloke/MERN-Academind-Nodejs-Refresher.git"
-  },
-  "author": "Emmanuel Oloke",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/EmmanuelOloke/MERN-Academind-Nodejs-Refresher/issues"
-  },
-  "homepage": "https://github.com/EmmanuelOloke/MERN-Academind-Nodejs-Refresher#readme",
-  "dependencies": {
-    "express": "^4.18.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.16"
-  }
+    "name": "node-refresher",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/EmmanuelOloke/MERN-Academind-Nodejs-Refresher.git"
+    },
+    "author": "Emmanuel Oloke",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/EmmanuelOloke/MERN-Academind-Nodejs-Refresher/issues"
+    },
+    "homepage": "https://github.com/EmmanuelOloke/MERN-Academind-Nodejs-Refresher#readme",
+    "dependencies": {
+        "express": "^4.18.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.16"
+    }
 }
